@@ -10,7 +10,7 @@ Générateur : `outils/facebook/gabarit_fb.py` (types `pub`, `outil`, `citation`
 Pied de page fixe : cours à domicile Tonnay-Charente, Rochefort · visio partout · unprofdanstapoche.com.
 
 ## Rythme
-- **Mercredi — « Ta pub »** (type `pub`) : une offre par semaine, en rotation : soutien maths et physique-chimie 6e–Terminale (bac pro compris) ; primaire CP–CM2 par le jeu et le matériel Montessori ; « votre enfant bloque ? » (confiance, bases) ; ateliers visio collectifs (ne jamais inventer de date ni de prix) ; cours en visio pour les familles éloignées ou à l'étranger ; stages pendant les vacances scolaires (sans date ni prix inventés). Appel à l'action : message privé.
+- **Mercredi — « Ta pub »** (type `pub`) : une offre par semaine, en rotation : soutien maths et physique-chimie 6e–Terminale (bac pro compris) ; primaire CP–CM2 par le jeu et le matériel Montessori ; « votre enfant bloque ? » (confiance, bases) ; **ateliers maths du dimanche en visio** (Google Meet, 10 € la séance d'1 h, depuis le 8/11/2026 : 10 h–11 h CAP, 13 h–14 h épreuve du bac pro, 18 h–19 h épreuve anticipée de maths de 1re ; slogan « Petit budget pour petit coef ! » ; inscription en MP) ; cours en visio pour les familles éloignées ou à l'étranger ; stages pendant les vacances scolaires (sans date ni prix inventés). Appel à l'action : message privé.
 - **Samedi — « Coulisse de prof »** (type `outil`) : présenter un outil ou une pratique pédagogique de Séverine, avec une illustration SVG dessinée. Idées déjà utilisables : soroban (boulier japonais), calculatrice Numworks, escape games pédagogiques qu'elle crée, jeu de calcul mental « CALCULO' DÉFI ! », barrettes de perles colorées Montessori, timbres Montessori, jeux de révision, fiches de révision, partir des passions de l'élève pour reformuler. **Ne jamais inventer d'histoire d'élève** : les récits d'accompagnement viennent uniquement de faits donnés par Séverine (anonymisés).
 - **Dimanche — « La phrase de la semaine »** (type `citation`) : soit une citation dont l'auteur est **certain** (sinon s'abstenir), soit une phrase de Séverine signée « Séverine, Un Prof dans ta Poche » dans son style (encourageant : « tu en es capable », ne jamais rien lâcher, l'erreur fait partie de l'apprentissage). Alterner.
 
@@ -21,7 +21,8 @@ Pied de page fixe : cours à domicile Tonnay-Charente, Rochefort · visio partou
 👉 unprofdanstapoche.com
 
 ## Livraison
+Page récap générée par `python3 outils/facebook/recap.py facebook/AAAA-MM.json <hash> <dossier> "<mois AAAA>"` (affiche les `files` à publier).
 Images dans `facebook/<date>/<nom>.jpg`, contenu dans `facebook/AAAA-MM.json`. Page récap (artifact) : visuel, jour, type, légende avec bouton « Copier la légende », lien « Ouvrir l'image » (raw GitHub fixé sur le commit) et mode d'emploi Meta Business Suite (mercredi ~12 h, week-end ~10 h).
 
 ## Historique
-- 2026-11 : pubs (soutien 6e–Tale, primaire par le jeu, « ça bloque », ateliers visio) ; coulisses (perles dorées, cartachari, chaîne de 100, partir du vécu – histoire réelle du pistolet) ; phrases (Montessori « Aide-moi à faire seul », « L'erreur est une étape », Mandela, « Être pédagogue… »).
+- 2026-11 : pubs (ateliers du dimanche : annonce 4/11 + rappel vendredi 6/11, primaire par le jeu, « ça bloque », soutien 6e–Tale) ; coulisses (perles dorées, cartachari, chaîne de 100, partir du vécu – histoire réelle du pistolet) ; phrases (Montessori « Aide-moi à faire seul », « L'erreur est une étape », Mandela, « Être pédagogue… »).
