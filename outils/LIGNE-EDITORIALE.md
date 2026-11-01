@@ -1,7 +1,12 @@
 # Ligne éditoriale — « La notion du jour » (Un Prof dans ta Poche)
 
 Compte TikTok : @1profdanstapoche (Metricool, brand id 7799284, fuseau Europe/Paris).
-Instagram et Facebook : à ajouter quand ils seront connectés dans Metricool.
+Instagram (unprofdanstapoche) et Facebook : connectés dans Metricool depuis le 1er nov. 2026.
+
+## Formats et posts Metricool
+Le gabarit produit deux jeux d'images par jour :
+- `<nom>-<n>.jpg` (1080×1920, 9:16) → post Metricool **TikTok seul**.
+- `<nom>-ig-<n>.jpg` (1080×1350, 4:5) → un **second post Metricool Instagram + Facebook** (instagramData type POST, facebookData type POST), même heure, même légende. Instagram coupe les images 9:16 dans un carrousel : ne jamais lui envoyer les versions TikTok.
 
 ## Rotation hebdomadaire
 | Jour | Niveau | Matière | Étiquette (tag) |

@@ -7,7 +7,7 @@ semaine.json = liste de posts :
 Chaque slide est le contenu HTML central ; en-tête (tag, n/total) et pied (marque, « Glisse → »)
 sont ajoutés automatiquement. Dernière slide : pied « 👇 En commentaire ! ».
 Classes : h1 (accroche), h2 (titre or), p, .box (encadré), .gold, .teal, .small, .strike (calcul faux en rouge), sup.
-Sortie : <date>/<nom>-<n>.jpg à la racine du dépôt.
+Sortie : <date>/<nom>-<n>.jpg (TikTok, 9:16) et <date>/<nom>-ig-<n>.jpg (Instagram/Facebook, 4:5).
 """
 import asyncio, json, pathlib, sys
 from playwright.async_api import async_playwright
@@ -39,14 +39,20 @@ sup{font-size:.6em}
 .strike{color:#ff8a7a}
 """
 
-def page(body, tag, n, total):
+def page(body, tag, n, total, extra=""):
     s = '<span class="swipe">Glisse →</span>' if n < total else '<span class="swipe">👇 En commentaire !</span>'
-    return f"""<html><head><meta charset="utf-8"><style>{CSS}</style></head><body>
+    return f"""<html><head><meta charset="utf-8"><style>{CSS}{extra}</style></head><body>
 <div class="blob b1"></div><div class="blob b2"></div>
 <span class="tag">{tag}</span><span class="num">{n}/{total}</span>
 {body}
 <div class="foot"><span><b>Un Prof dans ta Poche</b><br>@1profdanstapoche</span>{s}</div>
 </body></html>"""
+
+CSS_IG = """body{height:1350px;padding:80px 90px}
+.num{top:80px}h1{font-size:104px;margin-top:70px}h2{font-size:70px;margin-top:56px}
+p{font-size:48px;margin-top:34px}.box{margin-top:40px;padding:40px 44px;font-size:60px}"""
+
+FORMATS = [("", 1920, ""), ("-ig", 1350, CSS_IG)]  # TikTok 9:16, Instagram/Facebook 4:5
 
 async def main(fichier):
     posts = json.load(open(fichier, encoding="utf-8"))
@@ -56,13 +62,15 @@ async def main(fichier):
         for post in posts:
             dossier = RACINE / post["date"]; dossier.mkdir(exist_ok=True)
             total = len(post["slides"])
-            for i, body in enumerate(post["slides"], 1):
-                await pg.set_content(page(body, post["tag"], i, total), wait_until="networkidle")
-                png = dossier / f"{post['nom']}-{i}.png"
-                await pg.screenshot(path=str(png))
-                Image.open(png).convert("RGB").save(png.with_suffix(".jpg"), quality=85)
-                png.unlink()
-                print(png.with_suffix(".jpg"))
+            for suffixe, h, extra in FORMATS:
+                await pg.set_viewport_size({"width": 1080, "height": h})
+                for i, body in enumerate(post["slides"], 1):
+                    await pg.set_content(page(body, post["tag"], i, total, extra), wait_until="networkidle")
+                    png = dossier / f"{post['nom']}{suffixe}-{i}.png"
+                    await pg.screenshot(path=str(png))
+                    Image.open(png).convert("RGB").save(png.with_suffix(".jpg"), quality=85)
+                    png.unlink()
+                    print(png.with_suffix(".jpg"))
         await b.close()
 
 asyncio.run(main(sys.argv[1]))
