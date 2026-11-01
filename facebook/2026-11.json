@@ -1,19 +1,35 @@
 [
  {
   "date": "2026-11-04",
-  "nom": "pub-soutien-college-lycee",
+  "nom": "pub-ateliers-dimanche",
   "type": "pub",
-  "tag": "📣 Mes accompagnements",
-  "titre": "Les maths et la physique,<br><span>sans stress</span>",
-  "sous_titre": "De la 6e à la Terminale, bac pro compris",
+  "tag": "📣 Les ateliers du dimanche",
+  "titre": "Petit budget<br>pour <span>petit coef</span> !",
+  "sous_titre": "Des ateliers maths en visio, dès le dimanche 8 novembre",
   "points": [
-   "Cours à domicile <b>autour de Tonnay‑Charente</b>, ou en visio",
-   "Une méthode qui part <b>de votre enfant</b> : ses besoins, ses passions",
-   "Enseignante de l'Éducation nationale, <b>17 ans</b> d'expérience",
-   "Des encouragements <b>à chaque séance</b> 💪"
+   "<b>10 h – 11 h</b> : on prépare le <b>CAP</b>",
+   "<b>13 h – 14 h</b> : on prépare l'épreuve du <b>bac pro</b>",
+   "<b>18 h – 19 h</b> : on prépare l'<b>épreuve anticipée</b> de maths (1re)",
+   "En visio sur <b>Google Meet</b> · <b>10 €</b> la séance d'1 h"
   ],
-  "appel": "💬 Une question ? Écrivez-moi en message privé !",
-  "legende": "Les maths ou la physique-chimie, c'est devenu une source de stress à la maison ? 😟\n\nJ'accompagne les élèves de la 6e à la Terminale (bac pro compris), à domicile ou en visio. Mon objectif : comprendre où ça coince, reprendre les bases sans jugement, et redonner confiance. Quand un élève bloque, je reformule avec un exemple tiré de ce qu'il aime : le foot, la cuisine, les jeux vidéo… et ça change tout !\n\n📍 Cours à domicile autour de Tonnay-Charente, Rochefort, Saint-Hippolyte et alentours, ou en visio.\n💬 Une question ? Écrivez-moi en message privé !\n👉 unprofdanstapoche.com"
+  "appel": "📩 Inscriptions en message privé !",
+  "legende": "📣 Nouveau : les ateliers maths du dimanche, en visio !\n\nPetit budget pour petit coef : 10 € la séance d'une heure, sur Google Meet, en petit groupe. 💻\n\n🕙 10 h – 11 h : on prépare le CAP\n🕐 13 h – 14 h : on prépare l'épreuve du bac pro\n🕕 18 h – 19 h : on prépare l'épreuve anticipée de maths de 1re\n\nPas besoin d'adorer les maths pour venir : on revoit l'essentiel, on s'entraîne sur des sujets types et on repart avec de la méthode et de la confiance. 💪\n\n🚀 Premier rendez-vous : dimanche 8 novembre.\n📩 Inscriptions en message privé !\n👉 unprofdanstapoche.com"
+ },
+ {
+  "date": "2026-11-06",
+  "nom": "rappel-ateliers-dimanche",
+  "type": "pub",
+  "tag": "⏰ C'est ce dimanche !",
+  "titre": "Les ateliers<br>du <span>dimanche</span>",
+  "sous_titre": "Dimanche 8 novembre, en visio sur Google Meet",
+  "points": [
+   "<b>10 h – 11 h</b> : on prépare le <b>CAP</b>",
+   "<b>13 h – 14 h</b> : on prépare l'épreuve du <b>bac pro</b>",
+   "<b>18 h – 19 h</b> : on prépare l'<b>épreuve anticipée</b> de maths (1re)",
+   "En visio sur <b>Google Meet</b> · <b>10 €</b> la séance d'1 h"
+  ],
+  "appel": "📩 Il reste des places : écrivez-moi en MP !",
+  "legende": "⏰ C'est ce dimanche ! Les ateliers maths en visio démarrent le 8 novembre.\n\n📣 Nouveau : les ateliers maths du dimanche, en visio !\n\nPetit budget pour petit coef : 10 € la séance d'une heure, sur Google Meet, en petit groupe. 💻\n\n🕙 10 h – 11 h : on prépare le CAP\n🕐 13 h – 14 h : on prépare l'épreuve du bac pro\n🕕 18 h – 19 h : on prépare l'épreuve anticipée de maths de 1re\n\nPas besoin d'adorer les maths pour venir : on revoit l'essentiel, on s'entraîne sur des sujets types et on repart avec de la méthode et de la confiance. 💪\n\n📩 Il reste des places : réservez en message privé !\n👉 unprofdanstapoche.com"
  },
  {
   "date": "2026-11-07",
@@ -112,19 +128,19 @@
  },
  {
   "date": "2026-11-25",
-  "nom": "pub-ateliers-visio",
+  "nom": "pub-soutien-college-lycee",
   "type": "pub",
-  "tag": "📣 Les ateliers visio",
-  "titre": "Apprendre <span>à plusieurs</span>,<br>depuis la maison",
-  "sous_titre": "Des séances collectives en ligne",
+  "tag": "📣 Mes accompagnements",
+  "titre": "Les maths et la physique,<br><span>sans stress</span>",
+  "sous_titre": "De la 6e à la Terminale, bac pro compris",
   "points": [
-   "Premier thème : <b>le théorème de Pythagore</b>",
-   "Pour les <b>4e, 3e</b> et les curieux",
-   "En petit groupe, <b>on ose poser ses questions</b>",
-   "Accessible <b>partout</b>, même à l'étranger"
+   "Cours à domicile <b>autour de Tonnay‑Charente</b>, ou en visio",
+   "Une méthode qui part <b>de votre enfant</b> : ses besoins, ses passions",
+   "Enseignante de l'Éducation nationale, <b>17 ans</b> d'expérience",
+   "Des encouragements <b>à chaque séance</b> 💪"
   ],
-  "appel": "📅 Infos et inscriptions en message privé !",
-  "legende": "📣 Les ateliers visio sont lancés !\n\nDes séances collectives en ligne, en petit groupe, pour travailler une notion ensemble. Premier thème : le théorème de Pythagore, pour les 4e, les 3e… et tous les curieux ! 📐\n\nÀ plusieurs, on ose poser ses questions, on s'entraide et on apprend dans la bonne humeur.\n\n📍 Cours à domicile autour de Tonnay-Charente, Rochefort, Saint-Hippolyte et alentours, ou en visio.\n💬 Une question ? Écrivez-moi en message privé !\n👉 unprofdanstapoche.com"
+  "appel": "💬 Une question ? Écrivez-moi en message privé !",
+  "legende": "Les maths ou la physique-chimie, c'est devenu une source de stress à la maison ? 😟\n\nJ'accompagne les élèves de la 6e à la Terminale (bac pro compris), à domicile ou en visio. Mon objectif : comprendre où ça coince, reprendre les bases sans jugement, et redonner confiance. Quand un élève bloque, je reformule avec un exemple tiré de ce qu'il aime : le foot, la cuisine, les jeux vidéo… et ça change tout !\n\n📍 Cours à domicile autour de Tonnay-Charente, Rochefort, Saint-Hippolyte et alentours, ou en visio.\n💬 Une question ? Écrivez-moi en message privé !\n👉 unprofdanstapoche.com"
  },
  {
   "date": "2026-11-28",

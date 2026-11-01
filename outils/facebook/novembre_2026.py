@@ -178,6 +178,33 @@ posts = [
              "Belle semaine à tous 💛" + SIGNATURE},
 ]
 
+# --- Mise à jour du 1er nov. : ateliers visio du dimanche (dès le 8/11) ---
+POINTS_ATELIERS = ["<b>10 h – 11 h</b> : on prépare le <b>CAP</b>",
+                   "<b>13 h – 14 h</b> : on prépare l'épreuve du <b>bac pro</b>",
+                   "<b>18 h – 19 h</b> : on prépare l'<b>épreuve anticipée</b> de maths (1re)",
+                   "En visio sur <b>Google Meet</b> · <b>10 €</b> la séance d'1 h"]
+LEG_ATELIERS = ("📣 Nouveau : les ateliers maths du dimanche, en visio !\n\n"
+                "Petit budget pour petit coef : 10 € la séance d'une heure, sur Google Meet, en petit groupe. 💻\n\n"
+                "🕙 10 h – 11 h : on prépare le CAP\n"
+                "🕐 13 h – 14 h : on prépare l'épreuve du bac pro\n"
+                "🕕 18 h – 19 h : on prépare l'épreuve anticipée de maths de 1re\n\n"
+                "Pas besoin d'adorer les maths pour venir : on revoit l'essentiel, on s'entraîne sur des sujets types "
+                "et on repart avec de la méthode et de la confiance. 💪\n\n")
+for p in posts:
+    if p["nom"] == "pub-soutien-college-lycee":
+        p["date"] = "2026-11-25"
+posts = [p for p in posts if p["nom"] != "pub-ateliers-visio"]
+posts.append({"date": "2026-11-04", "nom": "pub-ateliers-dimanche", "type": "pub", "tag": "📣 Les ateliers du dimanche",
+  "titre": "Petit budget<br>pour <span>petit coef</span> !", "sous_titre": "Des ateliers maths en visio, dès le dimanche 8 novembre",
+  "points": POINTS_ATELIERS, "appel": "📩 Inscriptions en message privé !",
+  "legende": LEG_ATELIERS + "🚀 Premier rendez-vous : dimanche 8 novembre.\n📩 Inscriptions en message privé !\n👉 unprofdanstapoche.com"})
+posts.append({"date": "2026-11-06", "nom": "rappel-ateliers-dimanche", "type": "pub", "tag": "⏰ C'est ce dimanche !",
+  "titre": "Les ateliers<br>du <span>dimanche</span>", "sous_titre": "Dimanche 8 novembre, en visio sur Google Meet",
+  "points": POINTS_ATELIERS, "appel": "📩 Il reste des places : écrivez-moi en MP !",
+  "legende": "⏰ C'est ce dimanche ! Les ateliers maths en visio démarrent le 8 novembre.\n\n" + LEG_ATELIERS
+             + "📩 Il reste des places : réservez en message privé !\n👉 unprofdanstapoche.com"})
+posts.sort(key=lambda p: p["date"])
+
 racine = pathlib.Path(__file__).resolve().parents[2]
 json.dump(posts, open(racine / "facebook" / "2026-11.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 a_rendre = [p for p in posts if p["type"] != "existant"]
