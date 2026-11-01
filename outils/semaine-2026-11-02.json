@@ -1,0 +1,74 @@
+[
+ {
+  "date": "2026-11-03",
+  "nom": "mardi-1ere-maths",
+  "tag": "1ÈRE SPÉ · MATHS",
+  "slides": [
+   "<h1>x² − 3x − 4 = 0<br><span class='gold'>Δ = 7 ?</span> 😱</h1><p>Le piège qui fait tout rater…</p>",
+   "<h2>Le discriminant</h2><p>Pour ax² + bx + c = 0 (a ≠ 0) :</p><div class='box'>Δ = b² − 4ac</div><p><span class='teal'>Δ &gt; 0</span> : 2 solutions · <span class='teal'>Δ = 0</span> : 1 · <span class='teal'>Δ &lt; 0</span> : aucune</p>",
+   "<h2>Pourquoi ?</h2><p>On sait que ax² + bx + c<br>= a[(x + b/2a)² − Δ/4a²].<br>Or un carré est toujours ≥ 0.<br>Donc le signe de Δ décide !</p>",
+   "<h2>Le piège : b négatif</h2><p class='strike'>Δ = −3² + 16 = 7</p><p class='gold'>Δ = (−3)² − 4×1×(−4)<br>= 9 + 16 = 25</p><p>Splendide : 2 solutions !</p>",
+   "<h2>À toi de jouer !</h2><div class='box'>x² − 6x + 9 = 0<br>Combien de solutions ?</div><p>Tu en es capable ! 💪</p><p class='small'>Correction dimanche dans le quiz !</p>"
+  ]
+ },
+ {
+  "date": "2026-11-04",
+  "nom": "mercredi-3e-pc",
+  "tag": "3e · PHYSIQUE-CHIMIE",
+  "slides": [
+   "<h1>Pourquoi l'huile flotte sur l'<span class='gold'>eau</span> ? 🤔</h1>",
+   "<h2>La masse volumique</h2><p>La masse d'un volume donné de matière :</p><div class='box'>ρ = m / V</div>",
+   "<h2>Pourquoi ?</h2><p>Le moins dense flotte sur le plus dense.</p><div class='box'>ρ en g/mL<br><span class='small'>m en g · V en mL</span></div><p>Huile : 0,92 g/mL · Eau : 1,0 g/mL</p>",
+   "<h2>Le piège classique</h2><p>46 g d'huile pour 50 mL :</p><p class='strike'>ρ = 50 / 46 ≈ 1,09 g/mL</p><p class='gold'>ρ = 46 / 50 = 0,92 g/mL</p>",
+   "<h2>À toi de jouer !</h2><div class='box'>Cube d'aluminium :<br>m = 27 g · V = 10 cm³<br>ρ = ?</div><p>Tu en es capable ! 💪</p><p class='small'>Correction dimanche dans le quiz !</p>"
+  ]
+ },
+ {
+  "date": "2026-11-05",
+  "nom": "jeudi-tale-maths",
+  "tag": "TALE SPÉ · MATHS",
+  "slides": [
+   "<h1>La dérivée de e<sup>x²</sup>, c'est e<sup>x²</sup> ? <span class='gold'>Non !</span></h1>",
+   "<h2>Dérivée de e<sup>u</sup></h2><p>Si u est dérivable sur I :</p><div class='box'>(e<sup>u</sup>)′ = u′ × e<sup>u</sup></div>",
+   "<h2>Pourquoi ?</h2><p>On sait que (e<sup>x</sup>)′ = e<sup>x</sup>.<br>Or e<sup>u</sup> est une composée.<br>Donc (e<sup>u</sup>)′ = u′ × e<sup>u</sup>.</p>",
+   "<h2>Le piège classique</h2><p>f(x) = e<sup>x²</sup> ; u(x) = x², u′(x) = 2x</p><p class='strike'>f′(x) = e<sup>x²</sup></p><p class='gold'>f′(x) = 2x e<sup>x²</sup></p>",
+   "<h2>À toi de jouer !</h2><div class='box'>f(x) = e<sup>3x + 1</sup><br>f′(x) = ?</div><p>Tu en es capable ! 💪</p><p class='small'>Correction dimanche dans le quiz !</p>"
+  ]
+ },
+ {
+  "date": "2026-11-06",
+  "nom": "vendredi-1ere-pc",
+  "tag": "1ÈRE SPÉ · PC",
+  "slides": [
+   "<h1>Compter des molécules… avec une <span class='gold'>balance</span> ? ⚖️</h1>",
+   "<h2>La quantité de matière</h2><p>Elle se compte en moles :</p><div class='box'>n = m / M</div>",
+   "<h2>Pourquoi ?</h2><p>M est la masse d'une mole. On divise la masse totale par celle d'une mole.</p><div class='box'>n = m / M<br><span class='small'>n en mol · m en g · M en g/mol</span></div>",
+   "<h2>Le piège classique</h2><p>90,0 g de glucose, M = 180,0 g/mol</p><p class='strike'>n = 90,0 × 180,0 = 16 200 mol</p><p class='gold'>n = 90,0 / 180,0 = 0,500 mol</p>",
+   "<h2>À toi de jouer !</h2><div class='box'>9,0 g d'eau<br>M = 18,0 g/mol<br>n = ?</div><p>Tu en es capable ! 💪</p><p class='small'>Correction dimanche dans le quiz !</p>"
+  ]
+ },
+ {
+  "date": "2026-11-07",
+  "nom": "samedi-tale-pc",
+  "tag": "TALE SPÉ · PC",
+  "slides": [
+   "<h1>pH 3 : <span class='gold'>10 fois</span> plus acide que pH 4 ? 🧪</h1><p>Oui ! Voici pourquoi.</p>",
+   "<h2>Le pH</h2><p>Il mesure l'acidité d'une solution :</p><div class='box'>pH = −log([H₃O⁺] / c°)<br><span class='small'>c° = 1 mol·L⁻¹</span></div>",
+   "<h2>Pourquoi ?</h2><p>Le log inverse les puissances de 10&nbsp;:</p><div class='box'>[H₃O⁺] = c° × 10<sup>−pH</sup></div><p>pH − 1 ⇒ [H₃O⁺] × 10</p>",
+   "<h2>Le piège classique</h2><p>[H₃O⁺] = 2,0 × 10⁻³ mol·L⁻¹</p><p class='strike'>pH = 3</p><p class='gold'>pH = −log(2,0 × 10⁻³) = 2,70</p>",
+   "<h2>À toi de jouer !</h2><div class='box'>[H₃O⁺] = 1,0 × 10⁻⁴ mol·L⁻¹<br>pH = ?</div><p>Tu en es capable ! 💪</p><p class='small'>Correction dimanche dans le quiz !</p>"
+  ]
+ },
+ {
+  "date": "2026-11-08",
+  "nom": "dimanche-quiz",
+  "tag": "QUIZ DU DIMANCHE",
+  "slides": [
+   "<h1>Le quiz du <span class='gold'>dimanche</span> ! 🏆</h1><p>Les corrections des 6 défis de la semaine. Compte tes points !</p>",
+   "<h2>Lundi · Mardi</h2><p><span class='teal'>(x + 5)²</span> = x² + 10x + 25</p><p><span class='teal'>x² − 6x + 9 = 0</span> : Δ = 36 − 36 = 0, une solution x = 3</p>",
+   "<h2>Mercredi · Jeudi</h2><p><span class='teal'>Aluminium</span> : ρ = 27 / 10 = 2,7 g/cm³</p><p><span class='teal'>f(x) = e<sup>3x+1</sup></span> : f′(x) = 3e<sup>3x+1</sup></p>",
+   "<h2>Vendredi · Samedi</h2><p><span class='teal'>Eau</span> : n = 9,0 / 18,0 = 0,50 mol</p><p><span class='teal'>pH</span> = −log(1,0 × 10⁻⁴) = 4,00</p>",
+   "<h1>Formidable semaine ! 🎉</h1><p>Combien de points ? Dis-le en commentaire.</p><p class='gold'>Rendez-vous lundi !</p>"
+  ]
+ }
+]

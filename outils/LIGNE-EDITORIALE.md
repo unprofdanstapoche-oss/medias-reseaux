@@ -31,3 +31,9 @@ Bienveillant, encourageant, mots forts (formidable, splendide, extraordinaire), 
 
 ## Historique
 - 2026-11-02 (lun, 3e maths) : (a+b)², identité remarquable. Défi : développer (x+5)². Réponse : x² + 10x + 25.
+- 2026-11-03 (mar, 1ère spé maths) : discriminant Δ = b² − 4ac. Défi : nombre de solutions de x² − 6x + 9 = 0. Réponse : Δ = 0, une solution x = 3.
+- 2026-11-04 (mer, 3e PC) : masse volumique ρ = m/V. Défi : ρ d'un cube d'aluminium, m = 27 g, V = 10 cm³. Réponse : 2,7 g/cm³.
+- 2026-11-05 (jeu, Tale spé maths) : dérivée de e^u, (e^u)′ = u′e^u. Défi : dériver f(x) = e^(3x+1). Réponse : f′(x) = 3e^(3x+1).
+- 2026-11-06 (ven, 1ère spé PC) : quantité de matière n = m/M. Défi : n dans 9,0 g d'eau (M = 18,0 g/mol). Réponse : 0,50 mol.
+- 2026-11-07 (sam, Tale spé PC) : pH = −log([H₃O⁺]/c°). Défi : pH pour [H₃O⁺] = 1,0 × 10⁻⁴ mol·L⁻¹. Réponse : 4,00.
+- 2026-11-08 (dim, quiz) : corrections des défis du 2 au 7 novembre.
