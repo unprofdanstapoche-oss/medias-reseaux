@@ -7,8 +7,10 @@ Comptes : TikTok @1profdanstapoche, Instagram unprofdanstapoche, Facebook (Metri
 - On publie via Metricool sur **TikTok + Instagram uniquement**. Facebook reçoit les posts Instagram par le **partage automatique natif d'Instagram** (ne pas mettre Facebook dans Metricool).
 - Avant de programmer, compter les publications déjà publiées + programmées (non brouillon) du mois concerné (getScheduledPosts + ce fichier) : ne jamais dépasser 20. Si un jour ferait dépasser, le décaler au mois suivant ou le sauter, et le signaler.
 
-## Rythme
-**2 notions par semaine : lundi et jeudi, 18 h.** Les posts ponctuels (rentrée, fêtes…) consomment aussi le budget.
+## Rythme et plan mensuel
+**2 notions par semaine : lundi et jeudi, 18 h.** Préparation **mensuelle** : le 24 de chaque mois, tout le mois suivant est préparé d'un coup.
+- Notions : tous les lundis et jeudis du mois, dans la limite de **9 notions (18 publications)**. S'il y a plus de 9 lundis/jeudis, sauter le(s) dernier(s).
+- **Réserve** : les publications restantes (20 − 18 = au moins 2) sont gardées pour les posts ponctuels (fêtes, examens…). Les posts ponctuels consomment le budget du mois où ils sont publiés.
 
 ## Rotation (cycle de 3 semaines, 6 posts)
 | Ordre | Niveau | Matière | Étiquette (tag) |
