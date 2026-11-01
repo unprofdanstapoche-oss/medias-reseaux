@@ -1,0 +1,119 @@
+[
+ {
+  "date": "2026-12-03",
+  "nom": "jeudi-3e-pc",
+  "tag": "3e · PHYSIQUE-CHIMIE",
+  "slides": [
+   "<h1>2&nbsp;000 V dans un petit circuit&nbsp;? <span class='gold'>Impossible&nbsp;!</span>&nbsp;⚡</h1><p>Le piège des milliampères.</p>",
+   "<h2>La loi d'Ohm</h2><p>Pour une résistance, U et I sont proportionnelles&nbsp;:</p><div class='box'>U = R × I</div>",
+   "<h2>Pourquoi&nbsp;?</h2><p>Plus la résistance est grande, plus il faut de tension pour le même courant.</p><div class='box'>U en V · R en Ω · I en A</div>",
+   "<h2>Le piège classique</h2><p>R = 100 Ω et I = 20 mA</p><p class='strike'>U = 100 × 20 = 2&nbsp;000 V</p><p class='gold'>U = 100 × 0,020 = 2,0 V</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>1ère spé · u<sub>0</sub> = 3, r = 4</p><div class='box'>u<sub>10</sub> = 3 + 10 × 4<br>u<sub>10</sub> = 43</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>R = 220 Ω<br>I = 0,050 A<br>U =&nbsp;?</div><p>Tu en es capable&nbsp;!&nbsp;💪</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ },
+ {
+  "date": "2026-12-07",
+  "nom": "lundi-tale-maths",
+  "tag": "TALE SPÉ · MATHS",
+  "slides": [
+   "<h1>ln(2&nbsp;+&nbsp;3) =<br>ln&nbsp;2&nbsp;+&nbsp;ln&nbsp;3&nbsp;? <span class='gold'>Faux&nbsp;!</span>&nbsp;😱</h1>",
+   "<h2>Le logarithme népérien</h2><p>Pour a &gt; 0 et b &gt; 0&nbsp;:</p><div class='box'>ln(a × b) = ln a + ln b</div>",
+   "<h2>Pourquoi&nbsp;?</h2><p>On sait que e<sup>ln a + ln b</sup> = e<sup>ln a</sup> × e<sup>ln b</sup>.<br>Or ce produit vaut a × b.<br>Donc ln(ab) = ln a + ln b.</p>",
+   "<h2>Le piège classique</h2><p>ln transforme un <span class='teal'>produit</span> en somme, pas une somme&nbsp;!</p><p class='strike'>ln(2 + 3) = ln 2 + ln 3</p><p class='gold'>ln 2 + ln 3 = ln 6</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>3e · R = 220 Ω, I = 0,050 A</p><div class='box'>U = R × I<br>U = 220 × 0,050<br>U = 11 V</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>Simplifie&nbsp;:<br>ln 2 + ln 5 − ln 10</div><p>Tu en es capable&nbsp;!&nbsp;💪</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ },
+ {
+  "date": "2026-12-10",
+  "nom": "jeudi-1ere-pc",
+  "tag": "1ÈRE SPÉ · PC",
+  "slides": [
+   "<h1>Rouler 2× plus vite = 2× plus d'énergie&nbsp;? <span class='gold'>Non, 4×&nbsp;!</span>&nbsp;🚗</h1>",
+   "<h2>L'énergie cinétique</h2><p>L'énergie liée au mouvement&nbsp;:</p><div class='box'>E<sub>c</sub> = ½ m v²</div>",
+   "<h2>Pourquoi&nbsp;?</h2><p>La vitesse est au carré&nbsp;: si v double, E<sub>c</sub> est multipliée par 4.</p><div class='box'>E<sub>c</sub> en J<br>m en kg · v en m/s</div>",
+   "<h2>Le piège classique</h2><p>m = 1&nbsp;000 kg, v = 72 km/h = 20 m/s</p><p class='strike'>E<sub>c</sub> = ½ × 1&nbsp;000 × 72² ≈ 2,6 × 10⁶ J</p><p class='gold'>E<sub>c</sub> = ½ × 1&nbsp;000 × 20² = 2,0 × 10⁵ J</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>Tale spé · ln 2 + ln 5 − ln 10</p><div class='box'>= ln(2 × 5 / 10)<br>= ln 1<br>= 0</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>Coureur&nbsp;: m = 60 kg<br>v = 5,0 m/s<br>E<sub>c</sub> =&nbsp;?</div><p>Tu en es capable&nbsp;!&nbsp;💪</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ },
+ {
+  "date": "2026-12-14",
+  "nom": "lundi-tale-pc",
+  "tag": "TALE SPÉ · PC",
+  "slides": [
+   "<h1>Après 2 demi-vies, il ne reste <span class='gold'>rien</span>&nbsp;?&nbsp;☢️</h1><p>Eh non&nbsp;!</p>",
+   "<h2>La demi-vie t<sub>½</sub></h2><p>Durée au bout de laquelle la moitié des noyaux s'est désintégrée&nbsp;:</p><div class='box'>N(t<sub>½</sub>) = N<sub>0</sub> / 2</div>",
+   "<h2>Pourquoi&nbsp;?</h2><p>N(t) = N<sub>0</sub> e<sup>−λt</sup>. On cherche e<sup>−λt</sup> = ½&nbsp;:</p><div class='box'>t<sub>½</sub> = ln 2 / λ</div><p class='small'>λ en s⁻¹ · t<sub>½</sub> en s</p>",
+   "<h2>Le piège classique</h2><p>Au bout de 2 demi-vies&nbsp;:</p><p class='strike'>N = 0&nbsp;: tout a disparu</p><p class='gold'>N = (N<sub>0</sub>/2) / 2 = N<sub>0</sub>/4</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>1ère spé · m = 60 kg, v = 5,0 m/s</p><div class='box'>E<sub>c</sub> = ½ × 60 × 5,0²<br>E<sub>c</sub> = 7,5 × 10² J</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>Carbone 14&nbsp;:<br>t<sub>½</sub> = 5&nbsp;730 ans<br>Part restante<br>après 11&nbsp;460 ans&nbsp;?</div><p>Tu en es capable&nbsp;!&nbsp;💪</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ },
+ {
+  "date": "2026-12-17",
+  "nom": "jeudi-3e-maths",
+  "tag": "3e · MATHS",
+  "slides": [
+   "<h1>Une probabilité de 3/5… pour <span class='gold'>8 boules</span>&nbsp;?&nbsp;🎲</h1><p>Spécial révisions avant les vacances&nbsp;!</p>",
+   "<h2>Les probabilités</h2><p>Si toutes les issues ont la même chance&nbsp;:</p><div class='box'>P = issues favorables / issues possibles</div>",
+   "<h2>Pourquoi&nbsp;?</h2><p>On compare ce qu'on veut à <span class='teal'>tout</span> ce qui peut arriver. Donc P est toujours entre 0 et 1.</p>",
+   "<h2>Le piège classique</h2><p>3 boules rouges, 5 bleues. P(rouge)&nbsp;?</p><p class='strike'>P = 3/5</p><p class='gold'>P = 3/8</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>Tale spé · Carbone 14, 11&nbsp;460 ans</p><div class='box'>11&nbsp;460 = 2 × 5&nbsp;730<br>2 demi-vies&nbsp;: N<sub>0</sub>/4<br>Il reste 25 %</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>Dé à 6 faces<br>P(multiple de 3) =&nbsp;?</div><p>Tu en es capable&nbsp;!&nbsp;💪</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ },
+ {
+  "date": "2026-12-21",
+  "nom": "lundi-1ere-maths",
+  "tag": "1ÈRE SPÉ · MATHS",
+  "slides": [
+   "<h1>Un produit scalaire qui donne un <span class='gold'>vecteur</span>&nbsp;?&nbsp;🤔</h1><p>Spécial vacances&nbsp;: on révise&nbsp;!</p>",
+   "<h2>Le produit scalaire</h2><p>En repère orthonormé, u(x&nbsp;;&nbsp;y) et v(x′&nbsp;;&nbsp;y′)&nbsp;:</p><div class='box'>u · v = xx′ + yy′</div>",
+   "<h2>Pourquoi&nbsp;?</h2><p>C'est un <span class='teal'>nombre</span>, pas un vecteur.</p><div class='box'>u · v = 0 ⇔ u ⊥ v</div><p>Formidable pour l'orthogonalité&nbsp;!</p>",
+   "<h2>Le piège classique</h2><p>u(2&nbsp;;&nbsp;3) et v(4&nbsp;;&nbsp;−1)</p><p class='strike'>u · v = (8&nbsp;;&nbsp;−3)</p><p class='gold'>u · v = 8 + (−3) = 5</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>3e · Dé à 6 faces, multiple de 3</p><div class='box'>Favorables&nbsp;: 3 et 6<br>P = 2/6 = 1/3</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>u(3&nbsp;;&nbsp;−2) · v(4&nbsp;;&nbsp;6)<br>Orthogonaux&nbsp;?</div><p>Tu en es capable&nbsp;!&nbsp;💪</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ },
+ {
+  "date": "2026-12-24",
+  "nom": "jeudi-3e-pc",
+  "tag": "3e · PHYSIQUE-CHIMIE",
+  "slides": [
+   "<h1>Le traîneau à 324 m/s&nbsp;? <span class='gold'>Même pas&nbsp;!</span>&nbsp;🎅</h1><p>Spécial réveillon.</p>",
+   "<h2>La vitesse</h2><p>La distance parcourue par unité de temps&nbsp;:</p><div class='box'>v = d / t</div>",
+   "<h2>Pourquoi ÷ 3,6&nbsp;?</h2><p>1 km/h = 1&nbsp;000 m en 3&nbsp;600 s.</p><div class='box'>1 km/h = 1/3,6 m/s</div><p>km/h → m/s&nbsp;: on divise par 3,6.</p>",
+   "<h2>Le piège classique</h2><p>v = 90 km/h en m/s&nbsp;?</p><p class='strike'>90 × 3,6 = 324 m/s</p><p class='gold'>90 ÷ 3,6 = 25 m/s</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>1ère spé · u(3&nbsp;;&nbsp;−2) · v(4&nbsp;;&nbsp;6)</p><div class='box'>3 × 4 + (−2) × 6<br>= 12 − 12 = 0<br>Oui, orthogonaux&nbsp;!</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>Un renne parcourt<br>120 km en 2,0 h<br>v =&nbsp;? (km/h)</div><p>Tu en es capable&nbsp;!&nbsp;💪</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ },
+ {
+  "date": "2026-12-28",
+  "nom": "lundi-tale-maths",
+  "tag": "TALE SPÉ · MATHS",
+  "slides": [
+   "<h1>Une primitive de x², c'est 2x&nbsp;? <span class='gold'>Non&nbsp;!</span>&nbsp;😱</h1>",
+   "<h2>Les primitives</h2><p>F est une primitive de f si F′ = f.</p><div class='box'>xⁿ → xⁿ⁺¹ / (n + 1) + C</div>",
+   "<h2>Pourquoi&nbsp;?</h2><p>On sait que (xⁿ⁺¹)′ = (n + 1)xⁿ.<br>Or on veut obtenir xⁿ.<br>Donc on divise par n + 1.</p>",
+   "<h2>Le piège classique</h2><p>f(x) = x²&nbsp;: on remonte, on ne dérive pas&nbsp;!</p><p class='strike'>F(x) = 2x</p><p class='gold'>F(x) = x³/3 + C</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>3e · 120 km en 2,0 h</p><div class='box'>v = d / t = 120 / 2,0<br>v = 60 km/h</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>f(x) = 6x² + 2x<br>Une primitive F&nbsp;?</div><p>Tu en es capable&nbsp;!&nbsp;💪</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ },
+ {
+  "date": "2026-12-31",
+  "nom": "jeudi-1ere-pc",
+  "tag": "1ÈRE SPÉ · PC",
+  "slides": [
+   "<h1>Feux d'artifice&nbsp;: l'énergie d'<span class='gold'>un photon</span>&nbsp;?&nbsp;🎆</h1><p>Spécial Nouvel An&nbsp;!</p>",
+   "<h2>L'énergie d'un photon</h2><p>La lumière transporte des paquets d'énergie&nbsp;:</p><div class='box'>E = h c / λ</div>",
+   "<h2>Pourquoi&nbsp;?</h2><p>Plus λ est courte, plus le photon est énergétique.</p><div class='box'>E en J · λ en m<br><span class='small'>h = 6,63 × 10⁻³⁴ J·s<br>c = 3,00 × 10⁸ m/s</span></div>",
+   "<h2>Le piège classique</h2><p>λ = 500 nm = 5,00 × 10⁻⁷ m</p><p class='strike'>E = hc / 500 ≈ 3,98 × 10⁻²⁸ J</p><p class='gold'>E = hc / (5,00 × 10⁻⁷) ≈ 3,98 × 10⁻¹⁹ J</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>Tale spé · f(x) = 6x² + 2x</p><div class='box'>F(x) = 6x³/3 + 2x²/2<br>F(x) = 2x³ + x² + C</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>Photon rouge<br>λ = 663 nm<br>E =&nbsp;?</div><p>Tu en es capable&nbsp;!&nbsp;💪<br>Bonne année&nbsp;!&nbsp;🥳</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ }
+]

@@ -45,6 +45,9 @@ Bienveillant, encourageant, mots forts (formidable, splendide, extraordinaire), 
 ## Budget de novembre 2026
 Rentrée 1/11 (TikTok + Insta + FB = 3) + 2/11 (2) + 7 notions du 5 au 26/11 (14) = 19 / 20. Pas de post le lundi 30/11 (reprise le jeudi 3/12).
 
+## Budget de décembre 2026
+9 notions (lundis 7, 14, 21, 28 et jeudis 3, 10, 17, 24, 31) = 18 publications / 20 → réserve de 2 pour les posts ponctuels. Vacances de Noël à partir du samedi 19/12 : posts « spécial révisions/vacances ». Préparés en brouillon le 01/11 (avec le rattrapage des 23 et 26/11 : novembre = 15 programmées + 4 en brouillon = 19 / 20, réserve 1).
+
 ## Historique (date, ordre de rotation, notion, défi, réponse)
 - 2026-11-02 (lun, 1 · 3e maths) : (a+b)², identité remarquable. Défi : développer (x+5)². Réponse : x² + 10x + 25.
 - 2026-11-05 (jeu, 2 · 1ère spé maths) : discriminant Δ = b² − 4ac. Défi : nombre de solutions de x² − 6x + 9 = 0. Réponse : Δ = 0, une solution x = 3.
@@ -52,3 +55,14 @@ Rentrée 1/11 (TikTok + Insta + FB = 3) + 2/11 (2) + 7 notions du 5 au 26/11 (14
 - 2026-11-12 (jeu, 4 · Tale spé maths) : dérivée de e^u, (e^u)′ = u′e^u. Défi : dériver f(x) = e^(3x+1). Réponse : f′(x) = 3e^(3x+1).
 - 2026-11-16 (lun, 5 · 1ère spé PC) : quantité de matière n = m/M. Défi : n dans 9,0 g d'eau (M = 18,0 g/mol). Réponse : 0,50 mol.
 - 2026-11-19 (jeu, 6 · Tale spé PC) : pH = −log([H₃O⁺]/c°). Défi : pH pour [H₃O⁺] = 1,0 × 10⁻⁴ mol·L⁻¹. Réponse : 4,00.
+- 2026-11-23 (lun, 1 · 3e maths) : coefficient directeur d'une fonction affine a = (f(x₂) − f(x₁))/(x₂ − x₁). Défi : f(1) = 5, f(3) = 11, a = ? Réponse : a = 3.
+- 2026-11-26 (jeu, 2 · 1ère spé maths) : suite arithmétique uₙ = u₀ + nr. Défi : u₀ = 3, r = 4, u₁₀ = ? Réponse : 43.
+- 2026-12-03 (jeu, 3 · 3e PC) : loi d'Ohm U = R × I. Défi : R = 220 Ω, I = 0,050 A, U = ? Réponse : 11 V.
+- 2026-12-07 (lun, 4 · Tale spé maths) : ln(ab) = ln a + ln b. Défi : simplifier ln 2 + ln 5 − ln 10. Réponse : ln 1 = 0.
+- 2026-12-10 (jeu, 5 · 1ère spé PC) : énergie cinétique Ec = ½mv². Défi : m = 60 kg, v = 5,0 m/s. Réponse : 7,5 × 10² J.
+- 2026-12-14 (lun, 6 · Tale spé PC) : demi-vie radioactive, t½ = ln 2/λ. Défi : part restante de carbone 14 (t½ = 5 730 ans) après 11 460 ans. Réponse : 2 demi-vies → N₀/4 = 25 %.
+- 2026-12-17 (jeu, 1 · 3e maths) : probabilités (équiprobabilité). Défi : dé à 6 faces, P(multiple de 3). Réponse : 2/6 = 1/3.
+- 2026-12-21 (lun, 2 · 1ère spé maths) : produit scalaire u·v = xx′ + yy′. Défi : u(3 ; −2) et v(4 ; 6) orthogonaux ? Réponse : 12 − 12 = 0, oui.
+- 2026-12-24 (jeu, 3 · 3e PC) : vitesse v = d/t, km/h ÷ 3,6 → m/s. Défi : 120 km en 2,0 h, v en km/h. Réponse : 60 km/h.
+- 2026-12-28 (lun, 4 · Tale spé maths) : primitives de xⁿ. Défi : primitive de f(x) = 6x² + 2x. Réponse : F(x) = 2x³ + x² + C.
+- 2026-12-31 (jeu, 5 · 1ère spé PC) : énergie d'un photon E = hc/λ. Défi : λ = 663 nm (h = 6,63 × 10⁻³⁴ J·s, c = 3,00 × 10⁸ m/s). Réponse : 3,00 × 10⁻¹⁹ J.

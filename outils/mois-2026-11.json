@@ -1,0 +1,28 @@
+[
+ {
+  "date": "2026-11-23",
+  "nom": "lundi-3e-maths",
+  "tag": "3e · MATHS",
+  "slides": [
+   "<h1>Une droite, <span class='gold'>deux points</span>… et c'est gagné&nbsp;!&nbsp;📈</h1><p>Le coefficient directeur sans stress.</p>",
+   "<h2>Fonction affine</h2><p>f(x) = ax + b. Le coefficient directeur&nbsp;:</p><div class='box' style='font-size:52px'>a = (f(x₂) − f(x₁)) / (x₂ − x₁)</div>",
+   "<h2>Pourquoi&nbsp;?</h2><p>On sait que f(x₂) − f(x₁) = a(x₂ − x₁).<br>Or x₂ − x₁ ≠ 0.<br>Donc on divise&nbsp;: on obtient a&nbsp;!</p>",
+   "<h2>Le piège classique</h2><p>f(2) = 7 et f(4) = 3</p><p class='strike'>a = (4 − 2) / (3 − 7) = −0,5</p><p class='gold'>a = (3 − 7) / (4 − 2) = −2</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>Tale spé · [H₃O⁺] = 1,0 × 10⁻⁴ mol·L⁻¹</p><div class='box'>pH = −log(1,0 × 10⁻⁴)<br>pH = 4,00</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>f affine<br>f(1) = 5 · f(3) = 11<br>a =&nbsp;?</div><p>Tu en es capable&nbsp;!&nbsp;💪</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ },
+ {
+  "date": "2026-11-26",
+  "nom": "jeudi-1ere-maths",
+  "tag": "1ÈRE SPÉ · MATHS",
+  "slides": [
+   "<h1>Calculer u<sub>100</sub> sans tout écrire&nbsp;? <span class='gold'>Facile&nbsp;!</span>&nbsp;🚀</h1>",
+   "<h2>Suite arithmétique</h2><p>On ajoute toujours la même raison r&nbsp;:</p><div class='box'>u<sub>n</sub> = u<sub>0</sub> + n × r</div>",
+   "<h2>Pourquoi&nbsp;?</h2><p>On sait que u<sub>1</sub> = u<sub>0</sub> + r.<br>Or u<sub>2</sub> = u<sub>0</sub> + 2r, et ainsi de suite.<br>Donc après n étapes&nbsp;: u<sub>0</sub> + nr.</p>",
+   "<h2>Le piège classique</h2><p>u<sub>0</sub> = 2, r = 5&nbsp;: u<sub>4</sub> =&nbsp;?</p><p class='strike'>u<sub>4</sub> = 2 + 3 × 5 = 17</p><p class='gold'>u<sub>4</sub> = 2 + 4 × 5 = 22</p>",
+   "<h2>Correction du dernier défi</h2><p class='small'>3e · f(1) = 5 et f(3) = 11</p><div class='box'>a = (11 − 5) / (3 − 1)<br>a = 6 / 2 = 3</div><p class='teal'>Bravo si tu as trouvé&nbsp;!&nbsp;🎉</p>",
+   "<h2>À toi de jouer&nbsp;!</h2><div class='box'>u<sub>0</sub> = 3 · r = 4<br>u<sub>10</sub> =&nbsp;?</div><p>Tu en es capable&nbsp;!&nbsp;💪</p><p class='small'>Correction dans le prochain post&nbsp;!</p>"
+  ]
+ }
+]
