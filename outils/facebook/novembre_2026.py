@@ -59,13 +59,13 @@ def svg_pistolet():
           '<text x="830" y="150" font-family="Poppins" font-weight="700" font-size="40" fill="#f07a2f" text-anchor="middle">Paf !</text>')
     return s + '</svg>'
 
-APPEL = "💬 Une question ? Écrivez-moi en message privé !"
+APPEL = "💬 Écrivez-moi en message privé !"
 SIGNATURE = ("\n\n📍 Cours à domicile autour de Tonnay-Charente, Rochefort, Saint-Hippolyte et alentours, ou en visio.\n"
-             "💬 Une question ? Écrivez-moi en message privé !\n👉 unprofdanstapoche.com")
+             "💬 Une question ? Écrivez-moi en message privé !\n📞 07 56 92 56 73 · ✉️ unprofdanstapoche@gmail.com\n👉 unprofdanstapoche.com")
 
 posts = [
  {"date": "2026-11-04", "nom": "pub-soutien-college-lycee", "type": "pub", "tag": "📣 Mes accompagnements",
-  "titre": "Les maths et la physique,<br><span>sans stress</span>", "sous_titre": "De la 6e à la Terminale, bac pro compris",
+  "titre": "Maths et physique,<br><span>sans stress</span>", "sous_titre": "De la 6e à la Terminale, bac pro compris",
   "points": ["Cours à domicile <b>autour de Tonnay‑Charente</b>, ou en visio",
              "Une méthode qui part <b>de votre enfant</b> : ses besoins, ses passions",
              "Enseignante de l'Éducation nationale, <b>17 ans</b> d'expérience",
@@ -197,12 +197,12 @@ posts = [p for p in posts if p["nom"] != "pub-ateliers-visio"]
 posts.append({"date": "2026-11-04", "nom": "pub-ateliers-dimanche", "type": "pub", "tag": "📣 Les ateliers du dimanche",
   "titre": "Petit budget<br>pour <span>petit coef</span> !", "sous_titre": "Des ateliers maths en visio, dès le dimanche 8 novembre",
   "points": POINTS_ATELIERS, "appel": "📩 Inscriptions en message privé !",
-  "legende": LEG_ATELIERS + "🚀 Premier rendez-vous : dimanche 8 novembre.\n📩 Inscriptions en message privé !\n👉 unprofdanstapoche.com"})
+  "legende": LEG_ATELIERS + "🚀 Premier rendez-vous : dimanche 8 novembre.\n📩 Inscriptions en message privé ou au 07 56 92 56 73 !\n✉️ unprofdanstapoche@gmail.com\n👉 unprofdanstapoche.com"})
 posts.append({"date": "2026-11-06", "nom": "rappel-ateliers-dimanche", "type": "pub", "tag": "⏰ C'est ce dimanche !",
   "titre": "Les ateliers<br>du <span>dimanche</span>", "sous_titre": "Dimanche 8 novembre, en visio sur Google Meet",
   "points": POINTS_ATELIERS, "appel": "📩 Il reste des places : écrivez-moi en MP !",
   "legende": "⏰ C'est ce dimanche ! Les ateliers maths en visio démarrent le 8 novembre.\n\n" + LEG_ATELIERS
-             + "📩 Il reste des places : réservez en message privé !\n👉 unprofdanstapoche.com"})
+             + "📩 Il reste des places : réservez en message privé ou au 07 56 92 56 73 !\n✉️ unprofdanstapoche@gmail.com\n👉 unprofdanstapoche.com"})
 posts.sort(key=lambda p: p["date"])
 
 racine = pathlib.Path(__file__).resolve().parents[2]

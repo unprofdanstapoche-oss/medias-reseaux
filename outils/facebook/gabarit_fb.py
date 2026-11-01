@@ -33,7 +33,9 @@ li::before{content:"";position:absolute;left:8px;top:15px;width:28px;height:28px
  background:radial-gradient(circle at 35% 35%,#ffe9a8,#e0a526 60%,#a8740c)}
 li b{color:#1f5fa8}
 ul.check li::before{content:"✓";background:#1fb5a8;color:#fff;font-weight:700;font-size:20px;text-align:center;line-height:28px}
-.appel{margin-top:40px;background:#f2b632;border-radius:28px;padding:30px 40px;font-size:36px;font-weight:600;text-align:center;line-height:1.35}
+.appel{margin-top:40px;background:#f2b632;border-radius:28px;padding:26px 36px;font-size:34px;font-weight:600;text-align:center;line-height:1.35}
+.contact{display:block;margin-top:10px;font-size:30px;font-weight:700;color:#1f5fa8;white-space:nowrap}
+.contact small{display:block;font-size:24px;font-weight:600;color:#1d2b44}
 .quote{font-family:'Lora',serif;font-style:italic;font-weight:600;font-size:66px;line-height:1.25;color:#1f5fa8;margin-top:40px}
 .qmark{font-family:'Lora',serif;font-size:260px;line-height:.6;color:#1fb5a8;opacity:.5;margin-top:70px;height:120px}
 .auteur{font-size:36px;margin-top:40px;color:#2f6f6a;font-weight:600}
@@ -44,6 +46,8 @@ ul.check li::before{content:"✓";background:#1fb5a8;color:#fff;font-weight:700;
 .foot span:first-child{white-space:nowrap}
 .foot .site{font-weight:600;color:#1d2b44;text-align:right;font-size:25px}
 """
+
+CONTACT = '<span class="contact">📞 07 56 92 56 73<small>✉️ unprofdanstapoche@gmail.com</small></span>'
 
 FOOT = """<div class="foot"><span><b>Un Prof dans ta Poche</b>Cours à domicile : Tonnay‑Charente, Rochefort<br>Visio partout dans le monde</span>
 <span class="site">unprofdanstapoche.com</span></div>"""
@@ -57,7 +61,7 @@ def corps(p):
     if t == "pub":
         pts = "".join(f"<li>{x}</li>" for x in p["points"])
         return (f'<span class="tag jaune">{p["tag"]}</span><h1>{p["titre"]}</h1><p class="sub">{p["sous_titre"]}</p>'
-                f'<ul class="check" style="margin-top:44px">{pts}</ul><div class="appel">{p["appel"]}</div>')
+                f'<ul class="check" style="margin-top:44px">{pts}</ul><div class="appel">{p["appel"]}{CONTACT}</div>')
     if t == "citation":
         return (f'<span class="tag">🌱 La phrase de la semaine</span><div class="qmark">“</div>'
                 f'<p class="quote">{p["citation"]}</p><p class="auteur">— {p["auteur"]}</p><p class="note">{p["note"]}</p>')
