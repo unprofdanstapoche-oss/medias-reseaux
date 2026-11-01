@@ -182,9 +182,9 @@ posts = [
 POINTS_ATELIERS = ["<b>10 h – 11 h</b> : on prépare le <b>CAP</b>",
                    "<b>13 h – 14 h</b> : on prépare l'épreuve du <b>bac pro</b>",
                    "<b>18 h – 19 h</b> : on prépare l'<b>épreuve anticipée</b> de maths (1re)",
-                   "En visio sur <b>Google Meet</b> · <b>10 €</b> la séance d'1 h"]
+                   "En visio sur <b>Google Meet</b> · <b>7,80 €</b> la séance d'1 h"]
 LEG_ATELIERS = ("📣 Nouveau : les ateliers maths du dimanche, en visio !\n\n"
-                "Petit budget pour petit coef : 10 € la séance d'une heure, sur Google Meet, en petit groupe. 💻\n\n"
+                "Petit budget pour petit coef : 7,80 € la séance d'une heure, sur Google Meet, en petit groupe. 💻\n\n"
                 "🕙 10 h – 11 h : on prépare le CAP\n"
                 "🕐 13 h – 14 h : on prépare l'épreuve du bac pro\n"
                 "🕕 18 h – 19 h : on prépare l'épreuve anticipée de maths de 1re\n\n"
