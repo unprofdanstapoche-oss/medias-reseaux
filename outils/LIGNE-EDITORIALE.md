@@ -4,7 +4,7 @@ Comptes : TikTok @1profdanstapoche, Instagram unprofdanstapoche, Facebook (Metri
 
 ## Budget Metricool (plan GRATUIT) — règle n° 1
 - 20 publications publiées maximum par mois civil. Chaque réseau compte 1 (un post TikTok + Instagram = 2). Les brouillons ne comptent pas.
-- On publie via Metricool sur **TikTok + Instagram uniquement**. Facebook reçoit les posts Instagram par le **partage automatique natif d'Instagram** (ne pas mettre Facebook dans Metricool).
+- On publie via Metricool sur **TikTok + Instagram uniquement**. **Pas de Facebook** pour les notions (choix de Séverine, le partage auto entre réseaux ne marche pas avec Metricool).
 - Avant de programmer, compter les publications déjà publiées + programmées (non brouillon) du mois concerné (getScheduledPosts + ce fichier) : ne jamais dépasser 20. Si un jour ferait dépasser, le décaler au mois suivant ou le sauter, et le signaler.
 
 ## Rythme et plan mensuel
