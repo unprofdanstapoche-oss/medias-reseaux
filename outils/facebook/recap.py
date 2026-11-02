@@ -31,7 +31,7 @@ h1{font:700 clamp(30px,6vw,46px)/1.1 var(--display);color:var(--blue);text-wrap:
 .when{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:0}
 .day{font:700 24px var(--display)}
 .chip{font-size:13px;font-weight:600;padding:4px 12px;border-radius:999px;letter-spacing:.02em}
-.chip.pub{background:var(--sun);color:#1d2b44}.chip.coulisse{background:var(--blue);color:var(--bg)}.chip.phrase{background:var(--teal);color:var(--bg)}
+.chip.pub{background:var(--sun);color:#1d2b44}.chip.coulisse{background:var(--blue);color:var(--bg)}.chip.phrase{background:var(--teal);color:var(--bg)}.chip.done{background:var(--line);color:var(--fg)}
 .cap{margin:0;white-space:pre-wrap;word-wrap:break-word;font:15px/1.55 var(--body);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;max-height:340px;overflow:auto}
 .actions{display:flex;flex-wrap:wrap;gap:10px}
 button,.actions a{font:600 15px var(--body);border-radius:10px;padding:10px 16px;cursor:pointer;text-decoration:none}
@@ -58,7 +58,7 @@ def main(fichier, h, sortie, mois):
         lab, cls = TYPES[p['type']]
         raw = f"https://raw.githubusercontent.com/unprofdanstapoche-oss/medias-reseaux/{h}/facebook/{p['date']}/{p['nom']}.jpg"
         cards.append(f'''<article class="post"><img src="img/{f}" alt="Visuel du {JOURS[d.weekday()]} {d.day} {MOIS[d.month]}" loading="lazy" width="1080" height="1350">
- <div class="meta"><p class="when"><span class="day">{JOURS[d.weekday()].capitalize()} {d.day} {MOIS[d.month]}</span><span class="chip {cls}">{lab}</span></p>
+ <div class="meta"><p class="when"><span class="day">{JOURS[d.weekday()].capitalize()} {d.day} {MOIS[d.month]}</span><span class="chip {cls}">{lab}</span>{'<span class="chip done">✓ Déjà publié le 2 nov.</span>' if p.get('publie') else ''}</p>
  <pre class="cap" id="cap{i}">{html.escape(p['legende'])}</pre>
  <div class="actions"><button type="button" data-copy="cap{i}">Copier la légende</button><a href="{raw}" target="_blank" rel="noopener">Ouvrir l'image</a></div></div></article>''')
     page = f'''<title>Pack Facebook {mois.split()[0].lower()}</title>

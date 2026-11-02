@@ -43,7 +43,7 @@ Bienveillant, encourageant, mots forts (formidable, splendide, extraordinaire), 
 1-2 phrases d'accroche + invitation à glisser et commenter + 5-6 hashtags (#maths ou #physique, #brevet ou #bac, niveau, notion, #prof ; + #apprendresurtiktok sur TikTok seulement). Titre TikTok court (< 60 caractères).
 
 ## Budget de novembre 2026
-Rentrée 1/11 (TikTok + Insta + FB = 3) + 2/11 (2) + 7 notions du 5 au 26/11 (14) = 19 / 20. Pas de post le lundi 30/11 (reprise le jeudi 3/12).
+Rentrée 1/11 (TikTok + Insta + FB = 3) + 2/11 (2) + 7 notions du 5 au 26/11 (14) + annonce ateliers Facebook le 2/11 (1) = **20 / 20, quota épuisé**. Pas de post le lundi 30/11 (reprise le jeudi 3/12).
 
 ## Budget de décembre 2026
 9 notions (lundis 7, 14, 21, 28 et jeudis 3, 10, 17, 24, 31) = 18 publications / 20 → réserve de 2 pour les posts ponctuels. Vacances de Noël à partir du samedi 19/12 : posts « spécial révisions/vacances ». Préparés en brouillon le 01/11 (avec le rattrapage des 23 et 26/11 : novembre = 15 programmées + 4 en brouillon = 19 / 20, réserve 1).

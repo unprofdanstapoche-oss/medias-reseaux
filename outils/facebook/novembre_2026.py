@@ -193,6 +193,8 @@ LEG_ATELIERS = ("📣 Nouveau : les ateliers maths du dimanche, en visio !\n\n"
 for p in posts:
     if p["nom"] == "pub-soutien-college-lycee":
         p["date"] = "2026-11-25"
+    if p["nom"] == "pub-ateliers-dimanche":
+        p["publie"] = True
 posts = [p for p in posts if p["nom"] != "pub-ateliers-visio"]
 posts.append({"date": "2026-11-04", "nom": "pub-ateliers-dimanche", "type": "pub", "tag": "📣 Les ateliers du dimanche",
   "titre": "Petit budget<br>pour <span>petit coef</span> !", "sous_titre": "Des ateliers maths en visio, dès le dimanche 8 novembre",
@@ -203,6 +205,11 @@ posts.append({"date": "2026-11-06", "nom": "rappel-ateliers-dimanche", "type": "
   "points": POINTS_ATELIERS, "appel": "📩 Il reste des places : écrivez-moi en MP !",
   "legende": "⏰ C'est ce dimanche ! Les ateliers maths en visio démarrent le 8 novembre.\n\n" + LEG_ATELIERS
              + "📩 Il reste des places : réservez en message privé ou au 07 56 92 56 73 !\n✉️ unprofdanstapoche@gmail.com\n👉 unprofdanstapoche.com"})
+for p in posts:
+    if p["nom"] == "pub-ateliers-dimanche":
+        p["publie"] = True
+        p["legende"] += ("\n\n#CAP #BacPro #LycéePro #LycéeProfessionnel #MathsCAP #MathsBacPro #ÉpreuveAnticipée #Bac2027 "
+                         "#Première #RévisionsBac #SoutienScolaire #CoursEnLigne #TonnayCharente #Rochefort #CharenteMaritime")
 posts.sort(key=lambda p: p["date"])
 
 racine = pathlib.Path(__file__).resolve().parents[2]
