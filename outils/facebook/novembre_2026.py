@@ -239,18 +239,21 @@ posts.append({"date": "2026-11-25", "nom": "merci-22-eleves", "type": "outil", "
              "Chaque séance est une chance de comprendre, de progresser et de reprendre confiance. "
              "Merci à toutes les familles qui font vivre cette belle aventure ! 🙏" + SIGNATURE})
 posts.append({"date": "2026-11-28", "nom": "rappel-stage-noel", "type": "pub", "tag": "⏰ Rappel",
-  "titre": "Le stage<br>de <span>Noël</span>", "sous_titre": "Pendant les vacances, pour consolider en douceur",
-  "points": ["On revoit les notions <b>qui coincent</b>",
-             "On repart avec <b>de la méthode</b>",
-             "On reprend <b>confiance</b> avant la rentrée",
-             "Et on garde du temps <b>pour les fêtes</b> 🎄"],
+  "titre": "Le stage<br>de <span>Noël</span>", "sous_titre": "Maths et physique-chimie, pour bien finir l'année",
+  "points": ["<b>Lun. 28 → jeu. 31 déc.</b>, de 9 h à 11 h",
+             "À <b>Rochefort</b>, <b>10 élèves</b> maximum",
+             "De la <b>3e à la Terminale</b>, bac pro inclus",
+             "<b>200 €</b> les 4 matinées, livret compris"],
   "appel": "📩 Inscriptions en message privé !",
   "legende": "⏰ Petit rappel : le stage de Noël approche ! 🎄\n\n"
-             "Les vacances, c'est le bon moment pour souffler… et pour consolider en douceur. "
-             "Pendant le stage, on revoit les notions qui coincent, on reprend de la méthode "
-             "et on repart confiant pour la rentrée de janvier. ✨\n\n"
-             "Le tout dans la bonne humeur, en gardant bien sûr du temps pour profiter des fêtes !\n\n"
-             "📩 Inscriptions en message privé : écrivez-moi pour connaître les dates et réserver votre place." + SIGNATURE})
+             "4 matinées pour consolider les maths et la physique-chimie vues en classe, et apprendre à travailler seul, avec méthode. "
+             "À l'inscription, un questionnaire me permet de construire le programme de chaque élève, "
+             "et chacun reçoit son livret personnel : fiches méthode, exercices progressifs et corrigés. ✨\n\n"
+             "📅 Du lundi 28 au jeudi 31 décembre, de 9 h à 11 h (8 h de stage)\n"
+             "📍 À Rochefort, 10 élèves maximum\n"
+             "🎓 De la 3e à la Terminale, bac pro inclus\n"
+             "💶 200 € les 4 matinées, livret personnel compris (paiement à l'inscription)\n\n"
+             "📩 Inscriptions en message privé, les places sont limitées !" + SIGNATURE})
 posts.sort(key=lambda p: p["date"])
 
 racine = pathlib.Path(__file__).resolve().parents[2]

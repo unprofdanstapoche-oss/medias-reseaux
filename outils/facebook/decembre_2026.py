@@ -116,18 +116,21 @@ posts = [
              "Au programme : on revoit l'essentiel, on s'entraîne sur des sujets types et on gagne en méthode. 📐\n\n"
              "Petit budget pour petit coef : 7,80 € la séance d'une heure. "
              "Pas besoin d'adorer les maths pour venir, juste l'envie de progresser ! 💪" + SIGN_ATELIERS},
- {"date": "2026-12-16", "nom": "pub-stages-vacances", "type": "pub", "tag": "📣 Pendant les vacances",
-  "titre": "Les vacances,<br>pour <span>consolider</span>", "sous_titre": "Des stages pendant les vacances scolaires",
-  "points": ["On revoit les notions <b>qui coincent</b>",
-             "On repart avec <b>de la méthode</b>",
-             "On reprend <b>confiance</b> avant la rentrée",
-             "À domicile ou <b>en visio</b>"],
-  "appel": "📅 Infos et disponibilités en message privé !",
-  "legende": "🎄 Les vacances de Noël approchent ! Un moment pour souffler… et pourquoi pas pour consolider en douceur ?\n\n"
-             "Je propose des stages pendant les vacances scolaires : quelques séances pour reprendre une notion qui coince, "
-             "retrouver de la méthode et repartir confiant à la rentrée. ✨\n\n"
-             "Tout se fait à votre rythme, à domicile ou en visio, en gardant du temps pour profiter des fêtes ! "
-             "Écrivez-moi pour connaître mes disponibilités. 😊" + SIGNATURE},
+ {"date": "2026-12-16", "nom": "pub-stage-noel", "type": "pub", "tag": "📣 Pendant les vacances",
+  "titre": "Le stage<br>de <span>Noël</span>", "sous_titre": "Les vacances, pour consolider en douceur",
+  "points": ["<b>Lun. 28 → jeu. 31 déc.</b>, de 9 h à 11 h",
+             "À <b>Rochefort</b>, <b>10 élèves</b> maximum",
+             "De la <b>3e à la Terminale</b>, bac pro inclus",
+             "<b>200 €</b> les 4 matinées, livret compris"],
+  "appel": "📩 Inscriptions en message privé !",
+  "legende": "🎄 Les vacances de Noël approchent ! Un moment pour souffler… et pour consolider en douceur.\n\n"
+             "Pendant le stage de Noël, chaque élève suit un programme construit à partir de ses réponses au questionnaire d'inscription, "
+             "avec son livret personnel et des ateliers en autonomie. On reprend ce qui coince et on repart confiant pour 2027. ✨\n\n"
+             "📅 Du lundi 28 au jeudi 31 décembre, de 9 h à 11 h (8 h de stage)\n"
+             "📍 À Rochefort, 10 élèves maximum\n"
+             "🎓 De la 3e à la Terminale, bac pro inclus\n"
+             "💶 200 € les 4 matinées, livret personnel compris (paiement à l'inscription)\n\n"
+             "📩 Inscriptions en message privé !" + SIGNATURE},
  {"date": "2026-12-23", "nom": "pub-bulletin-trimestre", "type": "pub", "tag": "📣 Parents, pas de panique",
   "titre": "Le bulletin<br>du <span>1er trimestre</span>…", "sous_titre": "…n'est qu'un point de départ !",
   "points": ["On lit le bulletin <b>ensemble</b>, sans dramatiser",
