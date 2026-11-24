@@ -27,3 +27,4 @@ Images dans `facebook/<date>/<nom>.jpg`, contenu dans `facebook/AAAA-MM.json`. P
 
 ## Historique
 - 2026-11 : pubs (ateliers du dimanche : annonce 4/11 + rappel vendredi 6/11, primaire par le jeu, « ça bloque », soutien 6e–Tale) ; coulisses (perles dorées, cartachari, chaîne de 100, partir du vécu – histoire réelle du pistolet) ; phrases (Montessori « Aide-moi à faire seul », « L'erreur est une étape », Mandela, « Être pédagogue… »).
+- 2026-12 : pubs (cours en visio pour familles éloignées/étranger, ateliers du dimanche – focus épreuve anticipée 1re puis focus CAP/bac pro, stages vacances, bulletin du 1er trimestre) ; coulisses (soroban, timbres Montessori, calculatrice Numworks, barrettes de perles colorées) ; phrases (Montaigne « Plutôt la tête bien faite que bien pleine », « Tu en es capable… », La Fontaine « Rien ne sert de courir… », « Ne lâche rien : chaque petit pas compte »).
