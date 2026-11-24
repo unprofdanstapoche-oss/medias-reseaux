@@ -210,6 +210,47 @@ for p in posts:
         p["publie"] = True
         p["legende"] += ("\n\n#CAP #BacPro #LycéePro #LycéeProfessionnel #MathsCAP #MathsBacPro #ÉpreuveAnticipée #Bac2027 "
                          "#Première #RévisionsBac #SoutienScolaire #CoursEnLigne #TonnayCharente #Rochefort #CharenteMaritime")
+
+# --- Mise à jour du 25 nov. (demande de Séverine) : bilan de novembre le 25/11, rappel stage de Noël le 28/11 ---
+def svg_22():
+    groupes = [("2", "élémentaire", "#f2b632", "#1d2b44"), ("10", "collégiens", "#1fb5a8", "#fff"), ("10", "lycéens", "#1f5fa8", "#fff")]
+    s = ('<svg width="900" height="330" xmlns="http://www.w3.org/2000/svg">'
+         '<text x="150" y="215" font-family="Lora" font-weight="700" font-size="200" fill="#1f5fa8" text-anchor="middle">22</text>'
+         '<text x="150" y="275" font-family="Poppins" font-weight="600" font-size="30" fill="#2f6f6a" text-anchor="middle">élèves / semaine</text>'
+         '<text x="330" y="190" font-family="Poppins" font-weight="700" font-size="70" fill="#d39a14" text-anchor="middle">=</text>')
+    for i, (n, lab, fond, enc) in enumerate(groupes):
+        x = 470 + i * 160
+        s += (f'<circle cx="{x}" cy="160" r="70" fill="{fond}"/>'
+              f'<text x="{x}" y="183" font-family="Lora" font-weight="700" font-size="64" fill="{enc}" text-anchor="middle">{n}</text>'
+              f'<text x="{x}" y="270" font-family="Poppins" font-weight="600" font-size="24" fill="#1d2b44" text-anchor="middle">{lab}</text>')
+    return s + '</svg>'
+
+posts = [p for p in posts if p["nom"] not in ("pub-soutien-college-lycee", "coulisse-partir-du-vecu")]
+posts.append({"date": "2026-11-25", "nom": "merci-22-eleves", "type": "outil", "tag": "💛 Merci pour votre confiance",
+  "titre": "<span>22 élèves</span><br>chaque semaine", "sous_titre": "En novembre, Un Prof dans ta Poche grandit grâce&nbsp;à&nbsp;vous&nbsp;!",
+  "illustration": svg_22(),
+  "points": ["<b>2 élèves</b> en élémentaire, <b>10 collégiens</b> et <b>10 lycéens</b>",
+             "Merci aux <b>familles</b> pour leur confiance 💛",
+             "Bravo aux <b>élèves</b> pour chaque progrès !"],
+  "legende": "💛 Merci pour votre confiance !\n\n"
+             "En novembre, Un Prof dans ta Poche accompagne chaque semaine 22 élèves : "
+             "2 en élémentaire, 10 collégiens et 10 lycéens. 🎉\n\n"
+             "Derrière ces chiffres, il y a 22 élèves qui avancent pas à pas, et des parents qui m'ont fait confiance. "
+             "Chaque séance est une chance de comprendre, de progresser et de reprendre confiance. "
+             "Merci à toutes les familles qui font vivre cette belle aventure ! 🙏" + SIGNATURE})
+posts.append({"date": "2026-11-28", "nom": "rappel-stage-noel", "type": "pub", "tag": "⏰ Rappel",
+  "titre": "Le stage<br>de <span>Noël</span>", "sous_titre": "Pendant les vacances, pour consolider en douceur",
+  "points": ["On revoit les notions <b>qui coincent</b>",
+             "On repart avec <b>de la méthode</b>",
+             "On reprend <b>confiance</b> avant la rentrée",
+             "Et on garde du temps <b>pour les fêtes</b> 🎄"],
+  "appel": "📩 Inscriptions en message privé !",
+  "legende": "⏰ Petit rappel : le stage de Noël approche ! 🎄\n\n"
+             "Les vacances, c'est le bon moment pour souffler… et pour consolider en douceur. "
+             "Pendant le stage, on revoit les notions qui coincent, on reprend de la méthode "
+             "et on repart confiant pour la rentrée de janvier. ✨\n\n"
+             "Le tout dans la bonne humeur, en gardant bien sûr du temps pour profiter des fêtes !\n\n"
+             "📩 Inscriptions en message privé : écrivez-moi pour connaître les dates et réserver votre place." + SIGNATURE})
 posts.sort(key=lambda p: p["date"])
 
 racine = pathlib.Path(__file__).resolve().parents[2]
