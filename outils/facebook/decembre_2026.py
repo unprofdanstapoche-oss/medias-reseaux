@@ -241,6 +241,8 @@ posts = [
 for p in posts:  # espaces insécables autour des guillemets (pas de « » » orphelin)
     if "citation" in p:
         p["citation"] = p["citation"].replace("« ", "«&nbsp;").replace(" »", "&nbsp;»")
+# 25/11 : Séverine supprime les pubs automatiques du mercredi ; elle donne elle-même le sujet de chaque mercredi.
+posts = [p for p in posts if p["type"] != "pub"]
 posts.sort(key=lambda p: p["date"])
 
 racine = pathlib.Path(__file__).resolve().parents[2]

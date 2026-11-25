@@ -68,11 +68,11 @@ def main(fichier, h, sortie, mois):
 <style>{CSS}</style>
 <div class="wrap"><div class="band"></div>
 <header><h1>Pack Facebook · {mois}</h1>
-<p class="lead">{len(posts)} publications pour ta page Un Prof dans ta Poche : ta pub le mercredi, une coulisse de prof le samedi et la phrase de la semaine le dimanche.</p></header>
+<p class="lead">{len(posts)} publications pour ta page Un Prof dans ta Poche : une coulisse de prof le samedi et la phrase de la semaine le dimanche (le mercredi, c'est toi qui choisis le sujet).</p></header>
 <section class="how"><h2>Programmer dans Meta Business Suite</h2>
 <ol><li>Ouvre l'image, puis enregistre-la (appui long sur téléphone).</li><li>Copie la légende avec le bouton.</li>
 <li>Dans Meta Business Suite : « Créer une publication », coche seulement ta page Facebook, ajoute l'image, colle la légende.</li>
-<li>Choisis « Programmer » à la date indiquée (vers 12 h le mercredi, 10 h le week-end, 18 h pour un rappel du vendredi).</li></ol></section>
+<li>Choisis « Programmer » à la date indiquée (vers 10 h le week-end).</li></ol></section>
 {"".join(cards)}</div>
 <script>{JS}</script>'''
     (out / "index.html").write_text(page, encoding="utf-8")
